@@ -1,0 +1,42 @@
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Логи и временные файлы
+*.log
+*.out
+*.tmp
+
+# Кэш и артефакты
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Бинарники Go
+*.test
+*.prof
+*.cover
+*.cov
+*.pprof
+
+# Папки Go
+bin/
+build/
+dist/
+
+# Go модульные кэши
+vendor/
+*.sum
+go.work
+go.work.sum
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.iml
+
+# Docker
+docker-compose.override.yml
+.env
